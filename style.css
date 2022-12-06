@@ -1,0 +1,211 @@
+* {
+    margin-top: 0;
+}
+
+html{
+    font-family: Roboto, sans-serif;
+
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+/*  buttons */
+
+button {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    padding: .5em 2em;
+    border-radius: 7px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/* header */
+
+
+header .container {
+    padding: 1em 12em;
+    
+}
+
+header img[alt="Logo Image"] ,
+nav {
+    display: inline-block;
+}
+
+img[alt="Logo Image"] {
+    max-width: 1em;
+    max-height: 1em;
+    
+}
+nav {
+    float: right;
+}
+
+
+nav a {
+    color: #e5e7eb;
+    padding: 0 1em;
+    font-size: 18px;
+
+}
+
+
+
+header {
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+header p {
+    margin-right: 4em;
+}
+
+
+
+
+img[alt="Anime Girl"] {
+    max-width: 40em;
+}
+
+.container-info {
+    display: flex;
+    margin: 6em 0;
+}
+.header-info,
+img[alt="Anime Girl"] {
+    flex:1;
+    width: 50%;
+}
+
+
+
+h2 {
+    color: #f9faf8;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+header p {
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
+
+
+
+/* random section */
+
+div.random {
+margin: 3em 15em 5em;
+text-align: center;
+}
+
+h3 {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.random p {
+    color: #2b3747;
+}
+
+.random img {
+    max-width: 6em;
+}
+
+.random .container {
+    display: flex;
+}
+
+.random img {
+    padding: 1em;
+    flex: 1;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+    margin: 0 1em;
+}
+
+
+/* quote section */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 7em 15em;
+}
+
+blockquote {
+font-size: 30px;
+font-style: italic;
+font-weight: 400;
+color:#404c5c;
+margin:0;
+}
+
+.quote p {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2b3747;
+}
+
+/* call section */ 
+.call {
+    background-color: #3882f6;
+    padding: 2em 5em;
+    margin: 5em 12em;
+    border-radius: 8px;
+    display: flex;
+}
+
+.call h3 {
+    font-size: 25px;
+    color: #f9faf8;
+    margin-bottom:.5em;
+}
+.call p {
+    color: #f9faf8;
+
+}
+
+
+
+.call .container {
+    flex: 2;
+}
+
+
+.call button {
+    outline: 2px solid white;
+    padding: 0;
+    margin-top: 1em;
+    width: 6em;
+    height: 2em;
+    flex: 1;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #2b3747;
+    padding: 2em;
+}
+.footer p {
+    color: #e5e7eb;
+    text-align: center;
+}
+
